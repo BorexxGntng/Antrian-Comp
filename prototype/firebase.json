@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "frontend",
+    "rewrites": [
+      { "source": "/admin", "destination": "/admin/dashboard.html" },
+      { "source": "/admin/**", "destination": "/admin/dashboard.html" },
+      { "source": "**", "destination": "/customer/index.html" }
+    ]
+  },
+  "functions": { "source": "backend/functions" },
+  "firestore": { "rules": "backend/firestore.rules" }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../customer/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Admin Panel</h2>
+        </div>
+        <div class="sidebar-menu">
+            <a href="#" class="active">Dashboard</a>
+            <a href="../login.html">Logout</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header class="header">
+            <h1 class="header-title">Admin Dashboard</h1>
+            <div class="header-date" id="currentDate"></div>
+        </header>
+
+        <div class="content-grid">
+            <div class="queue-card">
+                <div class="queue-number" id="currentCalled">0</div>
+                <h2>Sedang Dipanggil</h2>
+                <button class="take-queue-btn" id="callNextBtn">Call Next → Done</button>
+                <button class="take-queue-btn" id="skipBtn" style="background:#ef4444; margin-top:10px;">Skip → Missed</button>
+                <button class="take-queue-btn" id="resetBtn" style="background:#dc2626; margin-top:20px;">Reset Antrian Hari Ini</button>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card stat-waiting"><div class="stat-number" id="waitingCount">0</div><div class="stat-label">Waiting</div></div>
+                <div class="stat-card stat-called"><div class="stat-number" id="calledCount">0</div><div class="stat-label">Called</div></div>
+                <div class="stat-card stat-missing"><div class="stat-number" id="missingCount">0</div><div class="stat-label">Missed</div></div>
+                <div class="stat-card stat-done"><div class="stat-number" id="doneCount">0</div><div class="stat-label">Done</div></div>
+            </div>
+        </div>
+
+        <div class="notification" id="notification" style="display:none;">
+            <div class="notification-content"><span id="notificationText"></span></div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-functions-compat.js"></script>
+    <script type="module" src="../../firebase-config.js"></script>
+    <script type="module" src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+[debug] [2025-12-03T03:26:15.988Z] ----------------------------------------------------------------------
+[debug] [2025-12-03T03:26:15.992Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2025-12-03T03:26:15.992Z] CLI Version:   14.26.0
+[debug] [2025-12-03T03:26:15.993Z] Platform:      win32
+[debug] [2025-12-03T03:26:15.993Z] Node Version:  v24.11.0
+[debug] [2025-12-03T03:26:15.993Z] Time:          Wed Dec 03 2025 10:26:15 GMT+0700 (Western Indonesia Time)
+[debug] [2025-12-03T03:26:15.993Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  JSON error trying to load C:\Users\ACER\github-classroom\tif1344\tugas-sistem-antrian-dengan-gcp-dan-firebase-elretro\prototype\.firebaserc 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\github-classroom\tif1344\tugas-sistem-antrian-dengan-gcp-dan-firebase-elretro\prototype
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-12-03T03:28:31.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-03T03:28:31.648Z] > authorizing via signed-in user (rahmansrg77@gmail.com)
+[debug] [2025-12-03T03:28:31.650Z] Checked if tokens are valid: false, expires at: 1762926726221
+[debug] [2025-12-03T03:28:31.651Z] Checked if tokens are valid: false, expires at: 1762926726221
+[debug] [2025-12-03T03:28:31.651Z] > refreshing access token with scopes: []
+[debug] [2025-12-03T03:28:31.654Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-03T03:28:31.654Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-03T03:28:32.216Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-03T03:28:32.216Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-03T03:28:32.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-12-03T03:28:53.362Z] ----------------------------------------------------------------------
+[debug] [2025-12-03T03:28:53.366Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2025-12-03T03:28:53.366Z] CLI Version:   14.26.0
+[debug] [2025-12-03T03:28:53.366Z] Platform:      win32
+[debug] [2025-12-03T03:28:53.366Z] Node Version:  v24.11.0
+[debug] [2025-12-03T03:28:53.366Z] Time:          Wed Dec 03 2025 10:28:53 GMT+0700 (Western Indonesia Time)
+[debug] [2025-12-03T03:28:53.366Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  JSON error trying to load C:\Users\ACER\github-classroom\tif1344\tugas-sistem-antrian-dengan-gcp-dan-firebase-elretro\prototype\.firebaserc 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\github-classroom\tif1344\tugas-sistem-antrian-dengan-gcp-dan-firebase-elretro\prototype
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-12-03T03:28:57.202Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-03T03:28:57.202Z] > authorizing via signed-in user (rahmansrg77@gmail.com)
+[debug] [2025-12-03T03:29:26.074Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:26.075Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:26.078Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-12-03T03:29:26.078Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"PC-Repair"}
+[debug] [2025-12-03T03:29:27.045Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-12-03T03:29:27.046Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"pc-repair-11647"}
+[debug] [2025-12-03T03:29:38.899Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:38.900Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:38.901Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-12-03T03:29:38.902Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"Perbaikan-PC"}
+[debug] [2025-12-03T03:29:40.235Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-12-03T03:29:40.235Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"perbaikan-pc"}
+[debug] [2025-12-03T03:29:57.325Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:57.325Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:29:57.327Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-12-03T03:29:57.327Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"Perbaikan-PC-elretro"}
+[debug] [2025-12-03T03:29:57.932Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-12-03T03:29:57.932Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"perbaikan-pc-elretro"}
+[debug] [2025-12-03T03:30:02.830Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:02.831Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:02.833Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-12-03T03:30:02.833Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"Perbaikan-PC-elretro-1"}
+[debug] [2025-12-03T03:30:03.114Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-12-03T03:30:03.114Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"perbaikan-pc-elretro-1"}
+[debug] [2025-12-03T03:30:24.856Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:24.856Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:24.857Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-12-03T03:30:24.857Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"perbaikan-elretro-pc"}
+[debug] [2025-12-03T03:30:25.414Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-12-03T03:30:25.414Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_AVAILABLE","suggestedProjectId":"perbaikan-elretro-pc"}
+[debug] [2025-12-03T03:30:47.367Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:47.367Z] Checked if tokens are valid: true, expires at: 1764736111216
+[debug] [2025-12-03T03:30:47.367Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-12-03T03:30:47.367Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"perbaikan-elretro-pc","name":"perbaikan-elretro-pc"}
+[debug] [2025-12-03T03:31:02.375Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects, {"headers":{},"method":"POST","signal":{"reason":""},"body":"{\"projectId\":\"perbaikan-elretro-pc\",\"name\":\"perbaikan-elretro-pc\"}"}): AbortError: The user aborted a request.
+[debug] [2025-12-03T03:31:02.892Z] FirebaseError: Timeout reached making request to https://cloudresourcemanager.googleapis.com/v1/projects
+    at RetryOperation._fn (C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:267:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.

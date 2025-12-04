@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Repair Shop - Queue System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-section">
+            <div class="logo-circle">CR</div>
+        </div>
+
+        <div class="nav-icons">
+            <a class="nav-icon">🏠</a>
+            <a class="nav-icon">📄</a>
+        </div>
+
+        <div class="sidebar-bottom">
+            <a class="nav-icon">⚙</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <div class="header-title">Computer Repair Shop</div>
+            <div class="header-date" id="currentDate"></div>
+        </div>
+
+        <div class="content-grid">
+            <!-- KARTU NOMOR ANTRIAN -->
+            <div class="queue-card">
+                <div id="queueDisplay" class="queue-number">0</div>
+                
+                <button id="takeQueueBtn" class="take-queue-btn">Ambil Nomor Antrian</button>
+
+                <!-- 🔵 Tambahan yang relevan -->
+                <div id="userTicketInfo" class="user-ticket-info" style="display:none;">
+                    <p>Nomor Antrian Anda</p>
+                    <div id="userTicketNumber" class="user-ticket-number">-</div>
+
+                    <div id="userTicketStatus" class="user-ticket-status">-</div>
+
+                    <p style="margin-top:10px;">Posisi Anda Dalam Antrian:</p>
+                    <div id="userQueuePosition" class="user-ticket-status">-</div>
+                </div>
+            </div>
+
+            <!-- STATISTIK -->
+            <div class="stats-grid">
+                <div class="stat-card stat-waiting">
+                    <div class="stat-number" id="waitingCount">0</div>
+                    <div class="stat-label">Waiting</div>
+                </div>
+
+                <div class="stat-card stat-called">
+                    <div class="stat-number" id="calledCount">0</div>
+                    <div class="stat-label">Called</div>
+                </div>
+
+                <div class="stat-card stat-missing">
+                    <div class="stat-number" id="missingCount">0</div>
+                    <div class="stat-label">Missing</div>
+                </div>
+
+                <div class="stat-card stat-done">
+                    <div class="stat-number" id="doneCount">0</div>
+                    <div class="stat-label">Done</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTIFIKASI -->
+    <div class="notification" id="notification" style="display:none;">
+        <div class="notification-content">
+            <span id="notificationText"></span>
+        </div>
+    </div>
+
+    <!-- Hanya tambah Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-functions-compat.js"></script>
+    
+    <script src="../firebase-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

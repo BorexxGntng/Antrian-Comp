@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Semua orang boleh baca (untuk realtime update)
+    match /{document=**} {
+      allow read: if true;
+      // Hanya Cloud Functions (admin SDK) yang boleh tulis
+      allow write: if false;
+    }
+  }
+}
